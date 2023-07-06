@@ -65,7 +65,7 @@ compute how much money you can borrow
 import numpy as np
 
 while(True):
-    choice = int(input("enter choice 2 for PV, 1 for Pmt  ->  "))
+    choice = int(input("enter 1 for Pmt, 2 for PV ->  "))
     if (choice ==1 or choice == 2):
         break
     else:
